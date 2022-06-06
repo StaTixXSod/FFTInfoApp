@@ -71,7 +71,7 @@ To use `predict` method type:
 model.predict(n_predict=365, show_plot=True)
 ```
 
-<img src="https://github.com/StaTixXSod/FFTInfoApp/blob/main/examples_imgs/example3_memory.png?raw=true" height="400">
+<img src="https://github.com/StaTixXSod/FFTInfoApp/blob/main/examples_imgs/example1_predict.png?raw=true" height="400">
 
 ## **4) Show info**
 Shows info about strongest cycles. Available after 'fit' method.
