@@ -199,7 +199,7 @@ This will return:
 
 ## Installation:
 ```
-- git clone 'repo'
+- git clone 'https://github.com/StaTixXSod/FFTInfoApp.git'
 - python -m venv venv
 - ./venv/bin/activate
 - pip install -r requirements.txt
