@@ -3,7 +3,9 @@
 ## **Basic information**:
 This app allows to **predict** timeseries data, based on Fast Fourier Transform method in a simple manner. Also it allows to **check info** about current cycles in dataseries and allows to apply **backtest** mode to check, how good model is at predicting the latest data.
 
-<img src="https://github.com/StaTixXSod/FFTInfoApp/blob/main/examples_imgs/example1_predict.png?raw=true" height="400"/>
+<a href="#">
+<img class="img-responsive" src="https://github.com/StaTixXSod/FFTInfoApp/blob/main/examples_imgs/example1_predict.png?raw=true" weight="600"/>
+</a>
 
 The app has the following features:
 - predict next values
@@ -71,7 +73,7 @@ To use `predict` method type:
 model.predict(n_predict=365, show_plot=True)
 ```
 
-<img src="https://github.com/StaTixXSod/FFTInfoApp/blob/main/examples_imgs/example1_predict.png?raw=true" height="400">
+<img src="https://github.com/StaTixXSod/FFTInfoApp/blob/main/examples_imgs/example1_predict.png?raw=true" weight="600">
 
 ## **4) Show info**
 Shows info about strongest cycles. Available after 'fit' method.
@@ -116,7 +118,7 @@ model.score(show_plot=True)
 ```
 This will return something like that:
 
-<img src="https://github.com/StaTixXSod/FFTInfoApp/blob/main/examples_imgs/example1_score.png?raw=true" height="400"/>
+<img src="https://github.com/StaTixXSod/FFTInfoApp/blob/main/examples_imgs/example1_score.png?raw=true" weight="600"/>
 
 ## **6) Show best parameters**
 Finds the optimal number of cycles to use based on the minimum MAPE error they produce. There is a loop with range from 1 to 'picked number of cycles' and each time the MAPE score will be calculated to find best number of cycles to use.
@@ -155,7 +157,7 @@ print("Max memory is: ", max_memory)
 ```
 Return: Max memory is:  711
 
-<img src="https://github.com/StaTixXSod/FFTInfoApp/blob/main/examples_imgs/example3_memory.png?raw=true" height="400"/>
+<img src="https://github.com/StaTixXSod/FFTInfoApp/blob/main/examples_imgs/example3_memory.png?raw=true" weight="400"/>
 
 ## **8) Auto Fit Predict**
 This method automates previous steps and allows to find max memory of data, fit the model on that data, find optimal number of cycles to use and plot predictions. Use 'backtest=True', when initializing the module, if you want to find best number of cycles 'best_n_cycles' or just set your own number to 'use_n_cycles'.
@@ -178,7 +180,7 @@ model.auto_fit_predict()
 ```
 This will return:
 
-<img src="https://github.com/StaTixXSod/FFTInfoApp/blob/main/examples_imgs/example4_auto_fit_predict.png?raw=true" height="400"/>
+<img src="https://github.com/StaTixXSod/FFTInfoApp/blob/main/examples_imgs/example4_auto_fit_predict.png?raw=true" weight="600"/>
 
 
 |  |    Num cycles | MAPE Error |
